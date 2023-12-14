@@ -2,6 +2,12 @@
 var generateBtn = document.querySelector("#generate");
 function generatePassword () {
 }
+var upper = confirm("Click OK to include uppercase letters in your password!");
+var lower = confirm("Click OK to include lowercase letters in your password!");
+var symbols = confirm("Click OK to include special symbols in your password!");
+var numbers = confirm("Click OK to include numbers in your password!");
+var passwordLength = prompt("Choice a password length ranging from 8 to 128 characters!");
+
 // password variables
 
 var numberValue = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
